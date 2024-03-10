@@ -12,6 +12,7 @@ const onClose = () =>{
 
   return (
     <div className="App">
+      <span>{this.initDataUnsafe?.user?.username}</span>
       <button onClick={onClose}>Close app</button>
       <GameStart/>
     </div>
